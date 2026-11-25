@@ -1,0 +1,5 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+html { scroll-behavior: smooth; }
+body { @apply bg-cream text-charcoal font-sans antialiased; }
+:focus-visible { outline: 2px solid #C49A6C; outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
